@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>Website, New and Improved</title>
-	<link href="style.css" rel="stylesheet" />
+	<link href="css/style.css" rel="stylesheet" />
 </head>
 <body>
 	<div class="page" id="page1">
@@ -12,11 +12,11 @@
 			<P>Also slightly under construction, mind the mess</P>
 		</div>
 	</div>
-	<div class="page" id="intro">
+	<div class="page blank" id="intro">
 		<div class="mainBox">
 			<h1>Hi, I'm Miguel.</h1>
-			<p>I'm currently an undergraduate CS major at the <span class="highlight">Georgia Institute of Technology</span>.</p>
-			<p>I was a student at the <span class="highlight">North Carolina School of Science of Math</span> and an intern at the <span class="highlight">Shodor Education Foundation.</span></p>
+			<p>I'm currently an undergraduate CS major at the <span class="highlight" id="gt">Georgia Institute of Technology</span>.</p>
+			<p>I was a student at the <span class="highlight" id="ncssm">North Carolina School of Science of Math</span> and an intern at the <span class="highlight" id="blank">Shodor Education Foundation.</span></p>
 		</div>
 	</div>
 	<div class="page" id="contact">
@@ -45,8 +45,15 @@
 	<div class="page" id="contact">
 		<div class="mainBox">
 			<h1>Wanna hang out?</h1>
-			<p>I'm on GitHub and LinkedIn.</p>
+			<p>I'm on <a href="https://github.com/migueldlr">GitHub</a> and <a href="https://www.linkedin.com/in/migueldlr/">LinkedIn</a>.</p>
 		</div>
 	</div>
+
+	<div id="noshow">
+		<img src="img/ncssm.JPG" />
+		<img src="img/gt.JPG" />
+	</div>
+	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="js/home.js"></script>
 </body>
 </html>
